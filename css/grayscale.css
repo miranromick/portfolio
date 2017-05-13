@@ -116,7 +116,14 @@ a:focus {
     background: black;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
+  .logo{
+    width: 10%;
+
+  }
 }
+/*.logo{
+  width: 10%;
+}*/
 .intro {
   display: table;
   width: 100%;
@@ -217,10 +224,17 @@ a:focus {
     transform: scale(1);
   }
 }
+.icon{
+  color: #42DCA3;
+  font-size: 50px;
+}
+/*.frameworks{
+  font-size: 30px;
+}*/
 .content-section {
   padding-top: 100px;
 }
-.download-section {
+.projects-section {
   width: 100%;
   padding: 50px 0;
   color: white;
@@ -240,7 +254,7 @@ a:focus {
   .content-section {
     padding-top: 250px;
   }
-  .download-section {
+  .projects-section{
     padding: 100px 0;
   }
   #map {
